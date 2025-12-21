@@ -71,6 +71,12 @@ export default function ProjectsPage() {
   return (
     <div className="min-h-screen">
       <section className="max-w-5xl mx-auto px-6 pt-24 pb-32">
+        <Link 
+            href="/" 
+            className="text-sm text-muted hover:text-foreground transition-colors mb-8 inline-block"
+        >
+          ← Back to Home
+        </Link>
         <div className="mb-12">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
             Selected Work

@@ -10,8 +10,8 @@ export function ThemeToggle() {
     setMounted(true);
     // Check system preference or stored preference
     const stored = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const dark = stored === "dark" || (!stored && prefersDark);
+    // Default to light if no preference is stored
+    const dark = stored === "dark";
     setIsDark(dark);
     document.documentElement.classList.toggle("dark", dark);
   }, []);

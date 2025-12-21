@@ -5,10 +5,20 @@ export const metadata: Metadata = {
   description: "Download my resume for a concise overview of my experience, skills, and projects.",
 };
 
+import Link from "next/link";
+
 export default function ResumePage() {
   return (
     <div className="min-h-screen">
       <section className="max-w-3xl mx-auto px-6 pt-24 pb-32 text-center">
+        <div className="text-left mb-8">
+            <Link 
+                href="/" 
+                className="text-sm text-muted hover:text-foreground transition-colors"
+            >
+            ← Back to Home
+            </Link>
+        </div>
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
           Resume
         </h1>
