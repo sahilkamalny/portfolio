@@ -71,7 +71,7 @@ export default function RootLayout({
             {/* Mobile Navigation */}
             <div className="flex md:hidden items-center gap-3">
               <Link href="/projects" className="text-sm text-muted hover:text-foreground transition-colors">
-                Work
+                Projects
               </Link>
               <Link href="/resume" className="text-sm text-muted hover:text-foreground transition-colors">
                 Resume

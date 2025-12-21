@@ -64,7 +64,7 @@ export default function Home() {
                   src="/profile.png" 
                   alt="Sahil Kamal" 
                   fill 
-                  className="object-cover object-center scale-[1.45] translate-y-2"
+                  className="object-cover object-center scale-[1.45] translate-y-12"
                   priority
                 />
               </div>
