@@ -19,7 +19,7 @@ export default function ResumePage() {
         <div className="mt-10">
           <a
             href="/resume.pdf"
-            download
+            download="Sahil Kamal (Resume).pdf"
             className="inline-flex items-center justify-center h-12 px-8 text-base font-medium rounded-lg bg-accent text-white hover:bg-accent-hover transition-colors"
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
