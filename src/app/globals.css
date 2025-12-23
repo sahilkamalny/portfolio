@@ -2,11 +2,11 @@
 
 /* Light mode (default) */
 :root {
-  --background: #fafafa;
+  --background: #ffffff;
   --foreground: #171717;
   --muted: #737373;
-  --accent: #3b82f6;
-  --accent-hover: #2563eb;
+  --accent: #1C64F2;
+  --accent-hover: #1a56db;
   --success: #22c55e;
   --border: #e5e5e5;
   --card: #ffffff;
@@ -17,8 +17,8 @@
   --background: #0a0a0a;
   --foreground: #e5e5e5;
   --muted: #a3a3a3;
-  --accent: #3b82f6;
-  --accent-hover: #60a5fa;
+  --accent: #1C64F2;
+  --accent-hover: #3b82f6;
   --success: #22c55e;
   --border: #262626;
   --card: #171717;
@@ -33,8 +33,13 @@
   --color-success: var(--success);
   --color-border: var(--border);
   --color-card: var(--card);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+html {
+  font-size: 18px;
+  /* Scale up all rem-based Tailwind text sizes */
 }
 
 body {

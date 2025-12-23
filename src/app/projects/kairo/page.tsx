@@ -36,10 +36,13 @@ export default function KairoCaseStudy() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
               </svg>
-              40% faster execution
+              100+ chainable commands
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
-              Reduced maintenance complexity
+              40% faster execution
+            </span>
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/5 text-muted">
+              10+ beta testers
             </span>
           </div>
 
@@ -133,14 +136,18 @@ export default function KairoCaseStudy() {
           <section>
             <h2 className="text-xl font-semibold text-foreground mb-4">Results</h2>
             <div className="rounded-lg border border-border bg-card p-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-success">40%</div>
+                  <div className="text-2xl font-bold text-success">100+</div>
+                  <div className="text-sm text-muted mt-1">Chainable commands</div>
+                </div>
+                <div>
+                  <div className="text-2xl font-bold text-accent">40%</div>
                   <div className="text-sm text-muted mt-1">Faster execution</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-accent">Lower</div>
-                  <div className="text-sm text-muted mt-1">Maintenance complexity</div>
+                  <div className="text-2xl font-bold text-foreground">10+</div>
+                  <div className="text-sm text-muted mt-1">Beta testers</div>
                 </div>
               </div>
             </div>

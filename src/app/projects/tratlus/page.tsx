@@ -23,7 +23,7 @@ export default function TratlusCaseStudy() {
               Tratlus
             </h1>
             <span className="text-sm font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">
-              AI Travel Platform
+              Full-Stack AI Travel Platform
             </span>
           </div>
           <p className="text-lg text-muted leading-relaxed">
@@ -36,13 +36,13 @@ export default function TratlusCaseStudy() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
               </svg>
-              60% less manual scheduling
+              Itineraries in &lt;30 seconds
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
-              Google APIs integrated
+              60% less manual scheduling
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/5 text-muted">
-              Stripe payments
+              Google Maps + Calendar APIs
             </span>
           </div>
 
@@ -146,12 +146,12 @@ export default function TratlusCaseStudy() {
             <div className="rounded-lg border border-border bg-card p-6">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-success">60%</div>
-                  <div className="text-sm text-muted mt-1">Less manual scheduling</div>
+                  <div className="text-2xl font-bold text-success">&lt;30s</div>
+                  <div className="text-sm text-muted mt-1">Itinerary generation</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-accent">3</div>
-                  <div className="text-sm text-muted mt-1">API integrations</div>
+                  <div className="text-2xl font-bold text-accent">60%</div>
+                  <div className="text-sm text-muted mt-1">Less manual scheduling</div>
                 </div>
                 <div>
                   <div className="text-2xl font-bold text-foreground">Zero</div>

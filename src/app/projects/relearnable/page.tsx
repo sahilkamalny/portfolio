@@ -36,13 +36,13 @@ export default function RelearnableCaseStudy() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
               </svg>
-              60–70% returning users
+              80+ users, 1,000+ assessments
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
-              50%+ faster load times
+              60–70% user retention
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/5 text-muted">
-              Live production users
+              50%+ faster load times
             </span>
           </div>
 
@@ -151,16 +151,16 @@ export default function RelearnableCaseStudy() {
             <div className="rounded-lg border border-border bg-card p-6">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                 <div>
-                  <div className="text-2xl font-bold text-success">60–70%</div>
-                  <div className="text-sm text-muted mt-1">Returning users</div>
+                  <div className="text-2xl font-bold text-success">80+</div>
+                  <div className="text-sm text-muted mt-1">Active users</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-accent">50%+</div>
-                  <div className="text-sm text-muted mt-1">Faster load times</div>
+                  <div className="text-2xl font-bold text-accent">1,000+</div>
+                  <div className="text-sm text-muted mt-1">Assessments generated</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-foreground">Production</div>
-                  <div className="text-sm text-muted mt-1">Live deployment</div>
+                  <div className="text-2xl font-bold text-foreground">60–70%</div>
+                  <div className="text-sm text-muted mt-1">User retention</div>
                 </div>
               </div>
             </div>

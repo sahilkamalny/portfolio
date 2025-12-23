@@ -18,12 +18,15 @@ export default function FlavorBotCaseStudy() {
           >
             ← Back to Projects
           </Link>
-          <div className="flex items-center gap-3 mb-4">
+          <div className="flex flex-wrap items-center gap-3 mb-4">
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
               FlavorBot
             </h1>
             <span className="text-sm font-medium px-3 py-1 rounded-full bg-accent/10 text-accent">
               AI Recipe System
+            </span>
+            <span className="text-sm font-medium px-3 py-1 rounded-full bg-success/10 text-success">
+              🏆 RamHacks 2025 Winner
             </span>
           </div>
           <p className="text-lg text-muted leading-relaxed">
@@ -34,12 +37,15 @@ export default function FlavorBotCaseStudy() {
           <div className="mt-6 flex flex-wrap gap-3">
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-success/10 text-success">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
               </svg>
-              25% faster revisions
+              Most Practical Application of AI
             </span>
             <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-accent/10 text-accent">
-              Improved first-pass acceptance
+              400+ recipes processed
+            </span>
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-foreground/5 text-muted">
+              25% faster revisions
             </span>
           </div>
 

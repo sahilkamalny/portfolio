@@ -8,12 +8,12 @@ export function ThemeToggle() {
 
   useEffect(() => {
     setMounted(true);
-    // Check stored preference, default to light
+    // Check stored preference, but default to light if nothing stored
     const stored = localStorage.getItem("theme");
     const dark = stored === "dark";
     setIsDark(dark);
     
-    // Apply the class immediately
+    // Apply the class
     if (dark) {
       document.documentElement.classList.add("dark");
     } else {
